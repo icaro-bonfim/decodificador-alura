@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - Challenge</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo_alura" src="./assets/img/Vector.png" alt="Logo da Alura">
+    </header>
+
+    <main class="container">
+        <section class="primeira_sessao">
+            <textarea class="texto_area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <img class="informacao_icone" src="./assets/img/info.png" alt="Botão de informação">
+                <p class="informacao_texto">Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="botoes">
+                <button class="btn_criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn_descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="segunda_sessao">
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn_copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por <a class="linkedin" href="https://www.linkedin.com/in/icaro-bonfim-dev/">Ícaro Bonfim.</a>
+        </p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

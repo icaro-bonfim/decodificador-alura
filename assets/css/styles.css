@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-primaria: #E5E5E5;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #495057;
+    --cor-quaternaria: #343A40;
+    --cor-quinaria-btn: #D8DFE8;
+    --cor-branca: #FFFFFF;
+    --cor-botao-cinza: #E9ECF8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.logo_alura {
+    padding: 40px 0 0 90px;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.primeira_sessao {
+    display: flex;
+    align-items: first baseline;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 2%;
+    margin-right: 100px;
+}
+
+.texto_area {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 40px 0 0 190px;
+    width: 680px;
+    height: 48px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border: none;
+    text-transform: lowercase;
+    resize: none;
+}
+
+.texto_area::placeholder {
+    color: var(--cor-secundaria);
+}
+
+.texto_area:focus {
+    outline: none;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.informacao_texto {
+    font-size: 12px;
+}
+
+.informacao {
+    margin-top: 380px;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+
+.btn_criptografar,
+.btn_descriptografar {
+    width: 300px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_criptografar {
+    color: var(--cor-branca);
+    background-color: var(--cor-secundaria);
+    border: var(--cor-secundaria);
+}
+
+.btn_criptografar:hover {
+    background-color: #072242fe;
+}
+
+.btn_descriptografar {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-quinaria-btn);
+    border-color: var(--cor-secundaria);
+    border-style: solid;
+}
+
+.btn_descriptografar:hover {
+    background-color: #bdc3cb;
+}
+
+.segunda_sessao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.mensagem {
+    background-color: var(--cor-branca);
+    background-image: url(/assets/img/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 640px;
+    width: 400px;
+    border-radius: 32px;
+    border: none;
+    color: var(--cor-secundaria);
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+
+.btn_copiar {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 40px;
+    width: 300px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--cor-branca);
+    color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    border-style: solid;
+
+}
+
+.btn_copiar:hover {
+    background-color: #e1dada;
+}
+
+.rodape {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.linkedin {
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.linkedin:hover {
+    color: #b81111;
+}
